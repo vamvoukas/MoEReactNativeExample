@@ -14,15 +14,6 @@ target 'MoEReactNativeExample' do
 
 end
 
-target 'MoEReactNativeExample-tvOS' do
-  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
-
-  # Pods for MoEReactNativeExample-tvOS
-
-  target 'MoEReactNativeExample-tvOSTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
+target 'NotificationService' do 
+  pod 'MORichNotification'
 end

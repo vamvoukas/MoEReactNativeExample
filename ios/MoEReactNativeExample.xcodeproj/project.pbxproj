@@ -27,6 +27,9 @@
 		7084C1BD515F43D0AB205BDA /* libMoEReactBridge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44B5E5E052F84A5892DDA3F1 /* libMoEReactBridge.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		AFB113B8202AD3310003643E /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB113B7202AD3310003643E /* NotificationService.m */; };
+		AFB113BC202AD3310003643E /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AFB113B4202AD3310003643E /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2B654B4385CBEBFD1ABF94E /* libPods-NotificationService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 974F29CFA0F3CC18E11E854E /* libPods-NotificationService.a */; };
 		C3D52D2B9BD77B78CF141458 /* libPods-MoEReactNativeExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F627BC8A686C333C5857EBE /* libPods-MoEReactNativeExampleTests.a */; };
 /* End PBXBuildFile section */
 
@@ -220,6 +223,13 @@
 			remoteGlobalIDString = 358F4ED71D1E81A9004DF814;
 			remoteInfo = RCTBlob;
 		};
+		AFB113BA202AD3310003643E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB113B3202AD3310003643E;
+			remoteInfo = NotificationService;
+		};
 		AFC733F71F90C028008CFD82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */;
@@ -278,6 +288,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AFB113AF202AD2F50003643E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AFB113BC202AD3310003643E /* NotificationService.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTActionSheet.xcodeproj; path = "../node_modules/react-native/Libraries/ActionSheetIOS/RCTActionSheet.xcodeproj"; sourceTree = "<group>"; };
@@ -299,6 +323,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MoEReactNativeExample/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		1AFE76DB7BF605AEFF2D010F /* Pods-MoEReactNativeExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoEReactNativeExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoEReactNativeExampleTests/Pods-MoEReactNativeExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		1FDED52B7D4A78BEB4909F31 /* Pods-NotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.release.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationService/Pods-NotificationService.release.xcconfig"; sourceTree = "<group>"; };
 		344DF8496D35E35613D53C67 /* Pods-MoEReactNativeExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoEReactNativeExample-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoEReactNativeExample-tvOS/Pods-MoEReactNativeExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		44B5E5E052F84A5892DDA3F1 /* libMoEReactBridge.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMoEReactBridge.a; sourceTree = "<group>"; };
 		4BCC3BB155FCD879A59CC263 /* Pods-MoEReactNativeExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoEReactNativeExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoEReactNativeExampleTests/Pods-MoEReactNativeExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -311,8 +336,15 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		851D0C4FDAA047C895FBA27D /* MoEReactBridge.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = MoEReactBridge.xcodeproj; path = "../node_modules/react-native-moengage/iOS/MoEReactBridge/MoEReactBridge.xcodeproj"; sourceTree = "<group>"; };
+		8E502F9EDB148392426B5051 /* Pods-NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NotificationService/Pods-NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
 		93C370A961334D1FE79E2BDE /* Pods-MoEReactNativeExample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoEReactNativeExample-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoEReactNativeExample-tvOSTests/Pods-MoEReactNativeExample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		974F29CFA0F3CC18E11E854E /* libPods-NotificationService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NotificationService.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		AFB113B4202AD3310003643E /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB113B6202AD3310003643E /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		AFB113B7202AD3310003643E /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		AFB113B9202AD3310003643E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFB113EF202AD51A0003643E /* NotificationService.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotificationService.entitlements; sourceTree = "<group>"; };
 		AFC734561F90E93F008CFD82 /* MoEReactNativeExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = MoEReactNativeExample.entitlements; path = MoEReactNativeExample/MoEReactNativeExample.entitlements; sourceTree = "<group>"; };
 		C4C458A475B064AD2D36371A /* libPods-MoEReactNativeExample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoEReactNativeExample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D94DDC80830B73AAE6B25DF1 /* Pods-MoEReactNativeExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoEReactNativeExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoEReactNativeExample/Pods-MoEReactNativeExample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -348,6 +380,14 @@
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				7084C1BD515F43D0AB205BDA /* libMoEReactBridge.a in Frameworks */,
 				2AB40104313D8B9DC8922761 /* libPods-MoEReactNativeExample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB113B1202AD3310003643E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B654B4385CBEBFD1ABF94E /* libPods-NotificationService.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +464,8 @@
 				712DC24A32C24662B0A75F5A /* Pods-MoEReactNativeExample-tvOSTests.release.xcconfig */,
 				4BCC3BB155FCD879A59CC263 /* Pods-MoEReactNativeExampleTests.debug.xcconfig */,
 				1AFE76DB7BF605AEFF2D010F /* Pods-MoEReactNativeExampleTests.release.xcconfig */,
+				8E502F9EDB148392426B5051 /* Pods-NotificationService.debug.xcconfig */,
+				1FDED52B7D4A78BEB4909F31 /* Pods-NotificationService.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -535,6 +577,7 @@
 				13B07FAE1A68108700A75B9A /* MoEReactNativeExample */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* MoEReactNativeExampleTests */,
+				AFB113B5202AD3310003643E /* NotificationService */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				08649ADB423E0F87E2F975C8 /* Pods */,
 				B3ED0B97B3D88BE5C63A58D3 /* Frameworks */,
@@ -550,6 +593,7 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* MoEReactNativeExample.app */,
 				00E356EE1AD99517003FC87E /* MoEReactNativeExampleTests.xctest */,
+				AFB113B4202AD3310003643E /* NotificationService.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -561,6 +605,17 @@
 				AFC733F81F90C028008CFD82 /* libRCTBlob-tvOS.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AFB113B5202AD3310003643E /* NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				AFB113EF202AD51A0003643E /* NotificationService.entitlements */,
+				AFB113B6202AD3310003643E /* NotificationService.h */,
+				AFB113B7202AD3310003643E /* NotificationService.m */,
+				AFB113B9202AD3310003643E /* Info.plist */,
+			);
+			path = NotificationService;
 			sourceTree = "<group>";
 		};
 		AFC733F11F90C027008CFD82 /* Recovered References */ = {
@@ -586,6 +641,7 @@
 				6AA663C4A78DD19435D0E457 /* libPods-MoEReactNativeExample-tvOS.a */,
 				C4C458A475B064AD2D36371A /* libPods-MoEReactNativeExample-tvOSTests.a */,
 				5F627BC8A686C333C5857EBE /* libPods-MoEReactNativeExampleTests.a */,
+				974F29CFA0F3CC18E11E854E /* libPods-NotificationService.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -625,15 +681,36 @@
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				C86B52DD3B69D530BFDF8217 /* [CP] Embed Pods Frameworks */,
 				EA53A7DB47E6205D2FD676BC /* [CP] Copy Pods Resources */,
+				AFB113AF202AD2F50003643E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AFB113BB202AD3310003643E /* PBXTargetDependency */,
 			);
 			name = MoEReactNativeExample;
 			productName = "Hello World";
 			productReference = 13B07F961A680F5B00A75B9A /* MoEReactNativeExample.app */;
 			productType = "com.apple.product-type.application";
+		};
+		AFB113B3202AD3310003643E /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB113BD202AD3310003643E /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				3F19C1A44CFE4501E357C269 /* [CP] Check Pods Manifest.lock */,
+				AFB113B0202AD3310003643E /* Sources */,
+				AFB113B1202AD3310003643E /* Frameworks */,
+				AFB113B2202AD3310003643E /* Resources */,
+				4ACE0B3C1F9B44EF942DB520 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationService;
+			productName = NotificationService;
+			productReference = AFB113B4202AD3310003643E /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -641,6 +718,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 610;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
@@ -655,6 +733,16 @@
 							com.apple.BackgroundModes = {
 								enabled = 1;
 							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					AFB113B3202AD3310003643E = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = BPWYRAF5X7;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
 							};
@@ -731,6 +819,7 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* MoEReactNativeExample */,
 				00E356ED1AD99517003FC87E /* MoEReactNativeExampleTests */,
+				AFB113B3202AD3310003643E /* NotificationService */,
 			);
 		};
 /* End PBXProject section */
@@ -993,6 +1082,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AFB113B2202AD3310003643E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -1009,6 +1105,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		3F19C1A44CFE4501E357C269 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotificationService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ACE0B3C1F9B44EF942DB520 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NotificationService/Pods-NotificationService-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		4D934E8EB8B4634EE8D183A0 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1129,6 +1258,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AFB113B0202AD3310003643E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB113B8202AD3310003643E /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1136,6 +1273,11 @@
 			isa = PBXTargetDependency;
 			target = 13B07F861A680F5B00A75B9A /* MoEReactNativeExample */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		AFB113BB202AD3310003643E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB113B3202AD3310003643E /* NotificationService */;
+			targetProxy = AFB113BA202AD3310003643E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1213,8 +1355,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D94DDC80830B73AAE6B25DF1 /* Pods-MoEReactNativeExample.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MoEReactNativeExample/MoEReactNativeExample.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = BPWYRAF5X7;
@@ -1239,8 +1383,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 558DD43C0211F645DAF331FB /* Pods-MoEReactNativeExample.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = MoEReactNativeExample/MoEReactNativeExample.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BPWYRAF5X7;
 				HEADER_SEARCH_PATHS = (
@@ -1336,6 +1482,76 @@
 			};
 			name = Release;
 		};
+		AFB113BE202AD3310003643E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E502F9EDB148392426B5051 /* Pods-NotificationService.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = BPWYRAF5X7;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MoEngage.MoEReactNativeExample.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFB113BF202AD3310003643E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FDED52B7D4A78BEB4909F31 /* Pods-NotificationService.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = BPWYRAF5X7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MoEngage.MoEReactNativeExample.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1362,6 +1578,15 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB113BD202AD3310003643E /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB113BE202AD3310003643E /* Debug */,
+				AFB113BF202AD3310003643E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

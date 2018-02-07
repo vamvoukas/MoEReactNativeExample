@@ -7,33 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		028E4354397BE5FD1648DF1345326D07 /* MOGeofenceHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 624D42B7AC777C94342F274FB4D0DC3B /* MOGeofenceHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		066192793D7C274E57F634C49805EBF3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D4E05E15CDF732D8227F7CE4E7D14B /* SystemConfiguration.framework */; };
-		07233FC5B5EAF4F37418D1811A119D4C /* MONotificationCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E56C23728D614E5A06C62BB7506A3A /* MONotificationCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E0DC39A55F74351665C7654D73B11B5 /* MoEngage-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3F438258DA38B13F8BD53888A0FAA8 /* MoEngage-iOS-SDK-dummy.m */; };
-		18B6E8BC5F526EAB485B02CFFBD71105 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B84131E4DA8867CA9A6AF7D2CD8DE7D /* CoreLocation.framework */; };
-		370B5F70F992FC173C6A0AF945C47194 /* Pods-MoEReactNativeExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E44C74D53029845911F44197B83B799C /* Pods-MoEReactNativeExample-dummy.m */; };
-		39B0BE891CA5CC00AA2BEA1FE094729B /* MOInbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E60AD2B6EB49220AF4C3FFA5353A208 /* MOInbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FB66ADA43056F9910F17DCB85D887E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AB6822C046A189EA4532FDA3A00E1D /* Foundation.framework */; };
-		45A18C571B4642B26A966063DC7E2945 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF1F039E2A294E9FEAEAAACA2BEDA51 /* Security.framework */; };
-		47B3D8F9A8A05E6FABA1B5E350999DC0 /* Pods-MoEReactNativeExample-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDED65109B86A88DF7BBBA7C890961DD /* Pods-MoEReactNativeExample-tvOSTests-dummy.m */; };
-		52592BF3FCF48BB46D0A6252DAA10927 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F06C8F1EA80821F7E6CF061F0C4A139 /* Foundation.framework */; };
-		97B00E91AAC8A98DC7F820B76FAE5728 /* MOInboxViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B387FD615B2FC68BFA372138E4F0702C /* MOInboxViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9CD17B53B10CC92C1B59FFFB89A11D66 /* MOPayloadBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = A50746A38F4F7A946979FE3A886E4ADF /* MOPayloadBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A696865CA625389049D754DCCEFF6287 /* MOInboxExposedConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 47705956B757D72B12635047DBE0E45C /* MOInboxExposedConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A8C0EA8E499FAA1925A52C7F0F0E20DC /* Pods-MoEReactNativeExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE271D7AC9F182ED0E0020BDE0A1A1A4 /* Pods-MoEReactNativeExampleTests-dummy.m */; };
-		AE780C9FFB825A86BE8CFFC3880867CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AB6822C046A189EA4532FDA3A00E1D /* Foundation.framework */; };
-		B960B855B73E6F82D828288D18ABDD68 /* MOInboxPushDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EAB6D372D2A3F3F13DF4A086ADACB60 /* MOInboxPushDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA7406FCEE3258C858FD2B0300675E57 /* MoEngage.h in Headers */ = {isa = PBXBuildFile; fileRef = EB2068A24377870F87F3BE6671971FD2 /* MoEngage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF68FD65837699B55C9656C81A50F85D /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2847B940B7E888238243AC0406ABDAB0 /* UserNotifications.framework */; };
-		C3F65DD04D77F38ABF00E10F4DA3FFA4 /* MOInboxExposedConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DB036B56D1AAF0795C26AB2B639213 /* MOInboxExposedConstants.m */; };
-		C5A45923D0B9CCF0DEA9DE78C7D7AAD4 /* MOInboxTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CCA5596EAA427241D950512D6E0D2D /* MOInboxTableViewCell.m */; };
-		CDD8869110FDF1DB1F8B6F1BE36D848B /* Pods-MoEReactNativeExample-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4788254C760CA7B923B132CAB137F079 /* Pods-MoEReactNativeExample-tvOS-dummy.m */; };
-		CFA088785523EB21129579DD584B0921 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AB6822C046A189EA4532FDA3A00E1D /* Foundation.framework */; };
-		E36BAA1D47706C2DB97BF796284EFBDD /* MOInboxTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F628F2B34638C15C9A80EBA9D6AB103 /* MOInboxTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC5E0C8B91CCC1C6BCCB8907BE583BC4 /* MOInboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 555064A89A82B0CFE2B79908A4F5589D /* MOInboxViewController.m */; };
-		FDD1F988E8F4339363390A7C7B2E2DAB /* MOEHelperConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = B0E0D4515B04FF2DD22CACA839936894 /* MOEHelperConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF7E45849C9A6F98BAF3FE3BFB029A3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F06C8F1EA80821F7E6CF061F0C4A139 /* Foundation.framework */; };
+		028E4354397BE5FD1648DF1345326D07 /* MOGeofenceHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC28DA7BF875D822F1CE8ACFBC3CE44 /* MOGeofenceHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		066192793D7C274E57F634C49805EBF3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F960D57CCB2B57ECD29D163CE5938C04 /* SystemConfiguration.framework */; };
+		07233FC5B5EAF4F37418D1811A119D4C /* MONotificationCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = E8B3F89B70F9FE6D1034A7A5B3B75B55 /* MONotificationCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E0DC39A55F74351665C7654D73B11B5 /* MoEngage-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF2F87D1F1A7B4B84ECC6B66EFD2370 /* MoEngage-iOS-SDK-dummy.m */; };
+		18B6E8BC5F526EAB485B02CFFBD71105 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF2FB9AE8DBE4CBB2413FD4F78934E04 /* CoreLocation.framework */; };
+		370B5F70F992FC173C6A0AF945C47194 /* Pods-MoEReactNativeExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1B2D31F0325D575C105B1A499E5DAE /* Pods-MoEReactNativeExample-dummy.m */; };
+		39B0BE891CA5CC00AA2BEA1FE094729B /* MOInbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECFBA8490F0808C75B0691A20EF6F5D /* MOInbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FB66ADA43056F9910F17DCB85D887E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DEB00AFBC41B15F0092CB39F182493 /* Foundation.framework */; };
+		4465BF6E7BDAB532B65973878BD19C4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DEB00AFBC41B15F0092CB39F182493 /* Foundation.framework */; };
+		45A18C571B4642B26A966063DC7E2945 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD9ADB2038D3C753A26C01A7FCD8236 /* Security.framework */; };
+		6178C4436D86BB8A12322FE2F56B6DC9 /* Pods-NotificationService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4CD63B8FC36DB1C99A867350E8A53D /* Pods-NotificationService-dummy.m */; };
+		97B00E91AAC8A98DC7F820B76FAE5728 /* MOInboxViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = AD957FB4B8662E6C00F1E1393399E554 /* MOInboxViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CD17B53B10CC92C1B59FFFB89A11D66 /* MOPayloadBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = B7272C2A489B59985807DDB067B80768 /* MOPayloadBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A696865CA625389049D754DCCEFF6287 /* MOInboxExposedConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F7581CDF881D5F8A2DE09D33ACBE6D /* MOInboxExposedConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8C0EA8E499FAA1925A52C7F0F0E20DC /* Pods-MoEReactNativeExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B450BC60D03CBD9DE4A6430D5758565 /* Pods-MoEReactNativeExampleTests-dummy.m */; };
+		AE780C9FFB825A86BE8CFFC3880867CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DEB00AFBC41B15F0092CB39F182493 /* Foundation.framework */; };
+		B960B855B73E6F82D828288D18ABDD68 /* MOInboxPushDataModel.h in Headers */ = {isa = PBXBuildFile; fileRef = EF74D38C264031E4A9DB0C21341921B4 /* MOInboxPushDataModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA7406FCEE3258C858FD2B0300675E57 /* MoEngage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EC49643A1496D68D02623D7D4CBC9D3 /* MoEngage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF68FD65837699B55C9656C81A50F85D /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E24F4356F57FB260EBF427568D3BFDCE /* UserNotifications.framework */; };
+		C3F65DD04D77F38ABF00E10F4DA3FFA4 /* MOInboxExposedConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 159024970E0A1049728D2AE8A6D29F79 /* MOInboxExposedConstants.m */; };
+		C5A45923D0B9CCF0DEA9DE78C7D7AAD4 /* MOInboxTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E735471334EC530A24ACEC5FC51C8682 /* MOInboxTableViewCell.m */; };
+		CFA088785523EB21129579DD584B0921 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DEB00AFBC41B15F0092CB39F182493 /* Foundation.framework */; };
+		E36BAA1D47706C2DB97BF796284EFBDD /* MOInboxTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 77DE79E606147FEC3975FC9536DF7F74 /* MOInboxTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC5E0C8B91CCC1C6BCCB8907BE583BC4 /* MOInboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EF69AEF6B52BE3C720DB982C5FE996 /* MOInboxViewController.m */; };
+		FDD1F988E8F4339363390A7C7B2E2DAB /* MOEHelperConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = E492E99D1CB40302196F31CF1AF22041 /* MOEHelperConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,64 +45,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		006EE56315510F1D987B4D0CCE513EEC /* MoEngage-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MoEngage-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
-		063D881C9E071DF707EFE2C84A6A3942 /* Pods-MoEReactNativeExample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoEReactNativeExample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		0B84131E4DA8867CA9A6AF7D2CD8DE7D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
-		0E53BCC9FB833116ED847300F7EEF553 /* MoEngage-iOS-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MoEngage-iOS-SDK-prefix.pch"; sourceTree = "<group>"; };
-		0FF1F039E2A294E9FEAEAAACA2BEDA51 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		14E56C23728D614E5A06C62BB7506A3A /* MONotificationCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MONotificationCategory.h; path = MOHeaders/MONotificationCategory.h; sourceTree = "<group>"; };
-		18CE60EF231D77799085894435EA33B0 /* Pods-MoEReactNativeExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoEReactNativeExample-frameworks.sh"; sourceTree = "<group>"; };
-		26CCA5596EAA427241D950512D6E0D2D /* MOInboxTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOInboxTableViewCell.m; path = MOInbox/MOInboxTableViewCell.m; sourceTree = "<group>"; };
-		2847B940B7E888238243AC0406ABDAB0 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
-		2D21D8AE35F7F2B04B780ED8887E04EE /* Pods-MoEReactNativeExample-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoEReactNativeExample-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2EBA3A028BF008877785DCA0CE221A56 /* Pods-MoEReactNativeExample-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoEReactNativeExample-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		35ADFEF5D65CD6EFF2D2045DC411B1F7 /* Pods-MoEReactNativeExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoEReactNativeExampleTests-frameworks.sh"; sourceTree = "<group>"; };
-		35EA6CB41CAE3501EDFA51B557A92632 /* Pods-MoEReactNativeExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoEReactNativeExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		429427E944A9079EB50B2F5BD16C6461 /* Pods-MoEReactNativeExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoEReactNativeExample.debug.xcconfig"; sourceTree = "<group>"; };
-		47705956B757D72B12635047DBE0E45C /* MOInboxExposedConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOInboxExposedConstants.h; path = MOInbox/MOInboxExposedConstants.h; sourceTree = "<group>"; };
-		4788254C760CA7B923B132CAB137F079 /* Pods-MoEReactNativeExample-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoEReactNativeExample-tvOS-dummy.m"; sourceTree = "<group>"; };
-		51BBA4267F4A5E3777F5D402F46C41CC /* Pods-MoEReactNativeExample-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoEReactNativeExample-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
-		520DEFD3070279194AA6852E7CBA5199 /* Pods-MoEReactNativeExample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoEReactNativeExample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		53D772B3E204BEE5B442156C48F5C406 /* Pods-MoEReactNativeExample-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoEReactNativeExample-tvOS-frameworks.sh"; sourceTree = "<group>"; };
-		552C1D243CB4E5DA41C6C605ED2D5116 /* Pods-MoEReactNativeExample-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoEReactNativeExample-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		555064A89A82B0CFE2B79908A4F5589D /* MOInboxViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOInboxViewController.m; path = MOInbox/MOInboxViewController.m; sourceTree = "<group>"; };
-		5EAB6D372D2A3F3F13DF4A086ADACB60 /* MOInboxPushDataModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOInboxPushDataModel.h; path = MOInbox/MOInboxPushDataModel.h; sourceTree = "<group>"; };
-		60DFDE1F479262720C99AE0A5F4299B0 /* Pods-MoEReactNativeExample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoEReactNativeExample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		624D42B7AC777C94342F274FB4D0DC3B /* MOGeofenceHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOGeofenceHandler.h; path = MOGeofence/MOGeofenceHandler.h; sourceTree = "<group>"; };
-		6771BEC7A22738FAA0FBF50C7F9C066D /* Pods-MoEReactNativeExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoEReactNativeExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		6FB27FFC37D20A636C3631F78E095B01 /* Pods-MoEReactNativeExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoEReactNativeExampleTests-resources.sh"; sourceTree = "<group>"; };
-		7D0F322BBA1EE3F7FD080FBF3A95FE53 /* libPods-MoEReactNativeExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MoEReactNativeExample.a"; path = "libPods-MoEReactNativeExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C7CA57877C765EF28701AFF869722A8 /* libPods-MoEReactNativeExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MoEReactNativeExampleTests.a"; path = "libPods-MoEReactNativeExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F06C8F1EA80821F7E6CF061F0C4A139 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8F3F438258DA38B13F8BD53888A0FAA8 /* MoEngage-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MoEngage-iOS-SDK-dummy.m"; sourceTree = "<group>"; };
-		928F79142E322C4E972EEEC41411CAC9 /* Pods-MoEReactNativeExample-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoEReactNativeExample-tvOS-resources.sh"; sourceTree = "<group>"; };
+		121AE3AF5FCEB5E2302510C4C662D1F9 /* Pods-MoEReactNativeExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoEReactNativeExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1328BA75D780548F5A6AF6FAFF0201DF /* Pods-MoEReactNativeExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoEReactNativeExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		159024970E0A1049728D2AE8A6D29F79 /* MOInboxExposedConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOInboxExposedConstants.m; path = MOInbox/MOInboxExposedConstants.m; sourceTree = "<group>"; };
+		195FB5176D18FCFA9C84F4D751C61306 /* MOInbox.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = MOInbox.storyboard; path = MOInbox/MOInbox.storyboard; sourceTree = "<group>"; };
+		1B450BC60D03CBD9DE4A6430D5758565 /* Pods-MoEReactNativeExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoEReactNativeExampleTests-dummy.m"; sourceTree = "<group>"; };
+		1ED985EE3951212CC07C91574C15B73E /* Pods-NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
+		2A553027852B4CD33E73BEE85A577103 /* libPods-NotificationService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NotificationService.a"; path = "libPods-NotificationService.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D049CE527D133B92045F489DFADB567 /* libMORichNotification.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libMORichNotification.a; path = MORichNotification/libMORichNotification.a; sourceTree = "<group>"; };
+		32DA4DA62CD628AE88EE2E8B23092607 /* libPods-MoEReactNativeExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MoEReactNativeExampleTests.a"; path = "libPods-MoEReactNativeExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4499244AF3B2D2181B840B25BF88845A /* MORichNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MORichNotification.h; path = MORichNotification/MORichNotification.h; sourceTree = "<group>"; };
+		49F7581CDF881D5F8A2DE09D33ACBE6D /* MOInboxExposedConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOInboxExposedConstants.h; path = MOInbox/MOInboxExposedConstants.h; sourceTree = "<group>"; };
+		4D32DE58CD1AC0954A68502DE6947230 /* MoEngage-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MoEngage-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
+		4D4CD63B8FC36DB1C99A867350E8A53D /* Pods-NotificationService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NotificationService-dummy.m"; sourceTree = "<group>"; };
+		4ECFBA8490F0808C75B0691A20EF6F5D /* MOInbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOInbox.h; path = MOInbox/MOInbox.h; sourceTree = "<group>"; };
+		4F1B2D31F0325D575C105B1A499E5DAE /* Pods-MoEReactNativeExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoEReactNativeExample-dummy.m"; sourceTree = "<group>"; };
+		58CFC59CDA4047B1E58FB26A0F6B4C89 /* Pods-NotificationService-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NotificationService-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58DEB00AFBC41B15F0092CB39F182493 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5C95DC0AFC11B3CCF08DF59CF97B3B23 /* Pods-MoEReactNativeExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoEReactNativeExample-resources.sh"; sourceTree = "<group>"; };
+		5DD9ADB2038D3C753A26C01A7FCD8236 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		662ADBED051149D314DC77F11746AB32 /* Pods-MoEReactNativeExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoEReactNativeExampleTests-resources.sh"; sourceTree = "<group>"; };
+		71EF69AEF6B52BE3C720DB982C5FE996 /* MOInboxViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOInboxViewController.m; path = MOInbox/MOInboxViewController.m; sourceTree = "<group>"; };
+		734669B3CA42C357016324073FBFDB2C /* libPods-MoEReactNativeExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MoEReactNativeExample.a"; path = "libPods-MoEReactNativeExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77DE79E606147FEC3975FC9536DF7F74 /* MOInboxTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOInboxTableViewCell.h; path = MOInbox/MOInboxTableViewCell.h; sourceTree = "<group>"; };
+		7E03501AC0D57469DCE33C96F6CEE6FB /* Pods-NotificationService-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NotificationService-acknowledgements.plist"; sourceTree = "<group>"; };
+		8EC49643A1496D68D02623D7D4CBC9D3 /* MoEngage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MoEngage.h; path = MOHeaders/MoEngage.h; sourceTree = "<group>"; };
+		9221624D2BBA42FEF5E7AECFCD89CDDC /* Pods-MoEReactNativeExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoEReactNativeExample-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9CB589BD70247635D1721ADEA6E8EF3C /* Pods-MoEReactNativeExample-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoEReactNativeExample-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9E60AD2B6EB49220AF4C3FFA5353A208 /* MOInbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOInbox.h; path = MOInbox/MOInbox.h; sourceTree = "<group>"; };
-		9F628F2B34638C15C9A80EBA9D6AB103 /* MOInboxTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOInboxTableViewCell.h; path = MOInbox/MOInboxTableViewCell.h; sourceTree = "<group>"; };
-		A50746A38F4F7A946979FE3A886E4ADF /* MOPayloadBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOPayloadBuilder.h; path = MOHeaders/MOPayloadBuilder.h; sourceTree = "<group>"; };
-		AB60E0B3E24533B64A67745AC8047EEF /* libMoEngage-iOS-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libMoEngage-iOS-SDK.a"; path = "libMoEngage-iOS-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0E0D4515B04FF2DD22CACA839936894 /* MOEHelperConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOEHelperConstants.h; path = MOHeaders/MOEHelperConstants.h; sourceTree = "<group>"; };
-		B2B4EEB56044B375979997281908F802 /* Pods-MoEReactNativeExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoEReactNativeExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B387FD615B2FC68BFA372138E4F0702C /* MOInboxViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOInboxViewController.h; path = MOInbox/MOInboxViewController.h; sourceTree = "<group>"; };
-		B43CDEEED13FBBF0DB60934B989F2E72 /* MOInbox.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = MOInbox.storyboard; path = MOInbox/MOInbox.storyboard; sourceTree = "<group>"; };
-		B4DB036B56D1AAF0795C26AB2B639213 /* MOInboxExposedConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOInboxExposedConstants.m; path = MOInbox/MOInboxExposedConstants.m; sourceTree = "<group>"; };
-		B6B95BE058B24813658939DAD383DC9F /* Pods-MoEReactNativeExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoEReactNativeExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		BA295075CE4932D45DF35F2DC5380B12 /* Pods-MoEReactNativeExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoEReactNativeExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		BDED65109B86A88DF7BBBA7C890961DD /* Pods-MoEReactNativeExample-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoEReactNativeExample-tvOSTests-dummy.m"; sourceTree = "<group>"; };
-		BE271D7AC9F182ED0E0020BDE0A1A1A4 /* Pods-MoEReactNativeExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoEReactNativeExampleTests-dummy.m"; sourceTree = "<group>"; };
-		C286D46D2E3C3D443F4A3C3935077E8D /* Pods-MoEReactNativeExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoEReactNativeExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CC2253ABDE1614F824B32BF017C41093 /* Pods-MoEReactNativeExample-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoEReactNativeExample-tvOSTests-resources.sh"; sourceTree = "<group>"; };
-		CD384E8D4C4B36E497A270AFE266E37B /* Pods-MoEReactNativeExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoEReactNativeExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CF03FA400935E324BFEF5D8EE3629BF9 /* libPods-MoEReactNativeExample-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MoEReactNativeExample-tvOS.a"; path = "libPods-MoEReactNativeExample-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2AB6822C046A189EA4532FDA3A00E1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D6D4E05E15CDF732D8227F7CE4E7D14B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		D7D4C1E8423E93B052E5C59F3F3119E6 /* Pods-MoEReactNativeExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoEReactNativeExample-resources.sh"; sourceTree = "<group>"; };
-		E44C74D53029845911F44197B83B799C /* Pods-MoEReactNativeExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoEReactNativeExample-dummy.m"; sourceTree = "<group>"; };
-		E9AFB66AA14EB6D15D5FEE077AE9AEE4 /* libMoEngageSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libMoEngageSDK.a; sourceTree = "<group>"; };
-		EB2068A24377870F87F3BE6671971FD2 /* MoEngage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MoEngage.h; path = MOHeaders/MoEngage.h; sourceTree = "<group>"; };
-		F748F734AEA3D839FD95C20F7A9BBE11 /* Pods-MoEReactNativeExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoEReactNativeExample.release.xcconfig"; sourceTree = "<group>"; };
-		FAF21D69C7E6AE8636BC5780C63B64AF /* libPods-MoEReactNativeExample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MoEReactNativeExample-tvOSTests.a"; path = "libPods-MoEReactNativeExample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C0533F0784C381161E22346FACA8B6 /* MoEngage-iOS-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MoEngage-iOS-SDK-prefix.pch"; sourceTree = "<group>"; };
+		9CD8040946DEED8596FA94E9D78E4236 /* Pods-NotificationService-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NotificationService-resources.sh"; sourceTree = "<group>"; };
+		AAB31EB661BBA50B98D27C1227CC049E /* Pods-MoEReactNativeExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoEReactNativeExampleTests-frameworks.sh"; sourceTree = "<group>"; };
+		AD957FB4B8662E6C00F1E1393399E554 /* MOInboxViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOInboxViewController.h; path = MOInbox/MOInboxViewController.h; sourceTree = "<group>"; };
+		B2ADE85E2BFD60A4CB06B3A379461C0E /* Pods-MoEReactNativeExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoEReactNativeExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		B7272C2A489B59985807DDB067B80768 /* MOPayloadBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOPayloadBuilder.h; path = MOHeaders/MOPayloadBuilder.h; sourceTree = "<group>"; };
+		B97AF277B2D638E88766E23FAEC7463E /* Pods-MoEReactNativeExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoEReactNativeExample.release.xcconfig"; sourceTree = "<group>"; };
+		BDF2F87D1F1A7B4B84ECC6B66EFD2370 /* MoEngage-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MoEngage-iOS-SDK-dummy.m"; sourceTree = "<group>"; };
+		CA8990F2558FF2D1F0DE1BD1548941E8 /* Pods-MoEReactNativeExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoEReactNativeExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CAC28DA7BF875D822F1CE8ACFBC3CE44 /* MOGeofenceHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOGeofenceHandler.h; path = MOGeofence/MOGeofenceHandler.h; sourceTree = "<group>"; };
+		D16261913447BDFFA71F63B7D66A29FD /* Pods-NotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NotificationService.release.xcconfig"; sourceTree = "<group>"; };
+		D730736831DF14A4339F5E6A2B17A77E /* libMoEngage-iOS-SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libMoEngage-iOS-SDK.a"; path = "libMoEngage-iOS-SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC98559F259FDA13DABC9541F223F77E /* Pods-MoEReactNativeExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoEReactNativeExample.debug.xcconfig"; sourceTree = "<group>"; };
+		DF2FB9AE8DBE4CBB2413FD4F78934E04 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		DF91F5B44A7B4C0E29D4526DC0B77FF6 /* Pods-MoEReactNativeExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoEReactNativeExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		E24F4356F57FB260EBF427568D3BFDCE /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
+		E492E99D1CB40302196F31CF1AF22041 /* MOEHelperConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOEHelperConstants.h; path = MOHeaders/MOEHelperConstants.h; sourceTree = "<group>"; };
+		E735471334EC530A24ACEC5FC51C8682 /* MOInboxTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MOInboxTableViewCell.m; path = MOInbox/MOInboxTableViewCell.m; sourceTree = "<group>"; };
+		E7AFB6A871D9FAA8E35C344A2DB5347F /* Pods-MoEReactNativeExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoEReactNativeExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8B3F89B70F9FE6D1034A7A5B3B75B55 /* MONotificationCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MONotificationCategory.h; path = MOHeaders/MONotificationCategory.h; sourceTree = "<group>"; };
+		EF74D38C264031E4A9DB0C21341921B4 /* MOInboxPushDataModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MOInboxPushDataModel.h; path = MOInbox/MOInboxPushDataModel.h; sourceTree = "<group>"; };
+		F960D57CCB2B57ECD29D163CE5938C04 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		FB3E81DB38AB0B81184F7B843542C2AA /* libMoEngageSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libMoEngageSDK.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,19 +106,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		29923527D46ACF1270A5A80226205FC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4465BF6E7BDAB532B65973878BD19C4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3FCD365D4A2283302690E195DBB7CC33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AE780C9FFB825A86BE8CFFC3880867CF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		620C925B7CEEEBDED1F8C5A3A149EDA7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FF7E45849C9A6F98BAF3FE3BFB029A3A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,197 +134,181 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EFD3997B1455F7ED311F8F0E55E14CEB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52592BF3FCF48BB46D0A6252DAA10927 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07BB65F3AB8363C9A1F0427B2C757488 /* tvOS */ = {
+		02BA74D07D2B4761233FB55BEFC2D1E9 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				8F06C8F1EA80821F7E6CF061F0C4A139 /* Foundation.framework */,
+				DF2FB9AE8DBE4CBB2413FD4F78934E04 /* CoreLocation.framework */,
+				58DEB00AFBC41B15F0092CB39F182493 /* Foundation.framework */,
+				5DD9ADB2038D3C753A26C01A7FCD8236 /* Security.framework */,
+				F960D57CCB2B57ECD29D163CE5938C04 /* SystemConfiguration.framework */,
+				E24F4356F57FB260EBF427568D3BFDCE /* UserNotifications.framework */,
 			);
-			name = tvOS;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		1C589A21536F7D4E1A3B6ACD4E94D042 /* Products */ = {
+		1188A39D4FE226593D4494FE7EB20B2F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AB60E0B3E24533B64A67745AC8047EEF /* libMoEngage-iOS-SDK.a */,
-				7D0F322BBA1EE3F7FD080FBF3A95FE53 /* libPods-MoEReactNativeExample.a */,
-				CF03FA400935E324BFEF5D8EE3629BF9 /* libPods-MoEReactNativeExample-tvOS.a */,
-				FAF21D69C7E6AE8636BC5780C63B64AF /* libPods-MoEReactNativeExample-tvOSTests.a */,
-				8C7CA57877C765EF28701AFF869722A8 /* libPods-MoEReactNativeExampleTests.a */,
+				D730736831DF14A4339F5E6A2B17A77E /* libMoEngage-iOS-SDK.a */,
+				734669B3CA42C357016324073FBFDB2C /* libPods-MoEReactNativeExample.a */,
+				32DA4DA62CD628AE88EE2E8B23092607 /* libPods-MoEReactNativeExampleTests.a */,
+				2A553027852B4CD33E73BEE85A577103 /* libPods-NotificationService.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1CBA9ECDBD081D683DF9FB9B9AE38A0D /* Pods */ = {
+		15C24160DBE572E2834177E5ED761975 /* Pods-MoEReactNativeExample */ = {
 			isa = PBXGroup;
 			children = (
-				31DB0B544CCE6D3F202D39D8998E4E69 /* MoEngage-iOS-SDK */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		31DB0B544CCE6D3F202D39D8998E4E69 /* MoEngage-iOS-SDK */ = {
-			isa = PBXGroup;
-			children = (
-				B0E0D4515B04FF2DD22CACA839936894 /* MOEHelperConstants.h */,
-				EB2068A24377870F87F3BE6671971FD2 /* MoEngage.h */,
-				624D42B7AC777C94342F274FB4D0DC3B /* MOGeofenceHandler.h */,
-				9E60AD2B6EB49220AF4C3FFA5353A208 /* MOInbox.h */,
-				47705956B757D72B12635047DBE0E45C /* MOInboxExposedConstants.h */,
-				B4DB036B56D1AAF0795C26AB2B639213 /* MOInboxExposedConstants.m */,
-				5EAB6D372D2A3F3F13DF4A086ADACB60 /* MOInboxPushDataModel.h */,
-				9F628F2B34638C15C9A80EBA9D6AB103 /* MOInboxTableViewCell.h */,
-				26CCA5596EAA427241D950512D6E0D2D /* MOInboxTableViewCell.m */,
-				B387FD615B2FC68BFA372138E4F0702C /* MOInboxViewController.h */,
-				555064A89A82B0CFE2B79908A4F5589D /* MOInboxViewController.m */,
-				14E56C23728D614E5A06C62BB7506A3A /* MONotificationCategory.h */,
-				A50746A38F4F7A946979FE3A886E4ADF /* MOPayloadBuilder.h */,
-				DF8AACE351C4D79599D8FBACC88730D4 /* Frameworks */,
-				AA3723FC6186DEBC0B14A638BDAAFF61 /* Resources */,
-				6BCBA43479CCEFC1F118F3EBD8776FFC /* Support Files */,
-			);
-			name = "MoEngage-iOS-SDK";
-			path = "MoEngage-iOS-SDK";
-			sourceTree = "<group>";
-		};
-		4EDD6FD13A6C89BBBBE3002F797FBEFF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EF636C0762ED74975039768C51B65A1A /* iOS */,
-				07BB65F3AB8363C9A1F0427B2C757488 /* tvOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		66895582A77DD771DD5D9DD830D34C3B /* Pods-MoEReactNativeExample */ = {
-			isa = PBXGroup;
-			children = (
-				35EA6CB41CAE3501EDFA51B557A92632 /* Pods-MoEReactNativeExample-acknowledgements.markdown */,
-				BA295075CE4932D45DF35F2DC5380B12 /* Pods-MoEReactNativeExample-acknowledgements.plist */,
-				E44C74D53029845911F44197B83B799C /* Pods-MoEReactNativeExample-dummy.m */,
-				18CE60EF231D77799085894435EA33B0 /* Pods-MoEReactNativeExample-frameworks.sh */,
-				D7D4C1E8423E93B052E5C59F3F3119E6 /* Pods-MoEReactNativeExample-resources.sh */,
-				429427E944A9079EB50B2F5BD16C6461 /* Pods-MoEReactNativeExample.debug.xcconfig */,
-				F748F734AEA3D839FD95C20F7A9BBE11 /* Pods-MoEReactNativeExample.release.xcconfig */,
+				1328BA75D780548F5A6AF6FAFF0201DF /* Pods-MoEReactNativeExample-acknowledgements.markdown */,
+				B2ADE85E2BFD60A4CB06B3A379461C0E /* Pods-MoEReactNativeExample-acknowledgements.plist */,
+				4F1B2D31F0325D575C105B1A499E5DAE /* Pods-MoEReactNativeExample-dummy.m */,
+				9221624D2BBA42FEF5E7AECFCD89CDDC /* Pods-MoEReactNativeExample-frameworks.sh */,
+				5C95DC0AFC11B3CCF08DF59CF97B3B23 /* Pods-MoEReactNativeExample-resources.sh */,
+				DC98559F259FDA13DABC9541F223F77E /* Pods-MoEReactNativeExample.debug.xcconfig */,
+				B97AF277B2D638E88766E23FAEC7463E /* Pods-MoEReactNativeExample.release.xcconfig */,
 			);
 			name = "Pods-MoEReactNativeExample";
 			path = "Target Support Files/Pods-MoEReactNativeExample";
 			sourceTree = "<group>";
 		};
-		6BCBA43479CCEFC1F118F3EBD8776FFC /* Support Files */ = {
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				006EE56315510F1D987B4D0CCE513EEC /* MoEngage-iOS-SDK.xcconfig */,
-				8F3F438258DA38B13F8BD53888A0FAA8 /* MoEngage-iOS-SDK-dummy.m */,
-				0E53BCC9FB833116ED847300F7EEF553 /* MoEngage-iOS-SDK-prefix.pch */,
+				02BA74D07D2B4761233FB55BEFC2D1E9 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31081B22410952CF86D9CC14B00D30C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D049CE527D133B92045F489DFADB567 /* libMORichNotification.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32B7CD64E7ED2D845ACAA1A918CA01FE /* MORichNotification */ = {
+			isa = PBXGroup;
+			children = (
+				4499244AF3B2D2181B840B25BF88845A /* MORichNotification.h */,
+				31081B22410952CF86D9CC14B00D30C3 /* Frameworks */,
+			);
+			name = MORichNotification;
+			path = MORichNotification;
+			sourceTree = "<group>";
+		};
+		366B35023A439CDA127AA1CA3E35C6CA /* MoEngage-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				E492E99D1CB40302196F31CF1AF22041 /* MOEHelperConstants.h */,
+				8EC49643A1496D68D02623D7D4CBC9D3 /* MoEngage.h */,
+				CAC28DA7BF875D822F1CE8ACFBC3CE44 /* MOGeofenceHandler.h */,
+				4ECFBA8490F0808C75B0691A20EF6F5D /* MOInbox.h */,
+				49F7581CDF881D5F8A2DE09D33ACBE6D /* MOInboxExposedConstants.h */,
+				159024970E0A1049728D2AE8A6D29F79 /* MOInboxExposedConstants.m */,
+				EF74D38C264031E4A9DB0C21341921B4 /* MOInboxPushDataModel.h */,
+				77DE79E606147FEC3975FC9536DF7F74 /* MOInboxTableViewCell.h */,
+				E735471334EC530A24ACEC5FC51C8682 /* MOInboxTableViewCell.m */,
+				AD957FB4B8662E6C00F1E1393399E554 /* MOInboxViewController.h */,
+				71EF69AEF6B52BE3C720DB982C5FE996 /* MOInboxViewController.m */,
+				E8B3F89B70F9FE6D1034A7A5B3B75B55 /* MONotificationCategory.h */,
+				B7272C2A489B59985807DDB067B80768 /* MOPayloadBuilder.h */,
+				4C90E53CB65856703EEECEFEA9319631 /* Frameworks */,
+				9E9AD7F07D724776C11A06405A622C32 /* Resources */,
+				3E9D307338B6B699FD704B23A55D37DD /* Support Files */,
+			);
+			name = "MoEngage-iOS-SDK";
+			path = "MoEngage-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		3E9D307338B6B699FD704B23A55D37DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D32DE58CD1AC0954A68502DE6947230 /* MoEngage-iOS-SDK.xcconfig */,
+				BDF2F87D1F1A7B4B84ECC6B66EFD2370 /* MoEngage-iOS-SDK-dummy.m */,
+				95C0533F0784C381161E22346FACA8B6 /* MoEngage-iOS-SDK-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MoEngage-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		4C90E53CB65856703EEECEFEA9319631 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB3E81DB38AB0B81184F7B843542C2AA /* libMoEngageSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60F72F85F859E12C12E4AB4C90ACAA0B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15C24160DBE572E2834177E5ED761975 /* Pods-MoEReactNativeExample */,
+				F9312DF862DF2DF8285087BFCB553344 /* Pods-MoEReactNativeExampleTests */,
+				D24148A04FE45CD4CCC1934E57CC46CA /* Pods-NotificationService */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				4EDD6FD13A6C89BBBBE3002F797FBEFF /* Frameworks */,
-				1CBA9ECDBD081D683DF9FB9B9AE38A0D /* Pods */,
-				1C589A21536F7D4E1A3B6ACD4E94D042 /* Products */,
-				E713CD7B8B9FFCE910E7D1E8D7CD6AF0 /* Targets Support Files */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				9F0238DB3381E3A9F6BCABBB9DAF3F15 /* Pods */,
+				1188A39D4FE226593D4494FE7EB20B2F /* Products */,
+				60F72F85F859E12C12E4AB4C90ACAA0B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		AA3723FC6186DEBC0B14A638BDAAFF61 /* Resources */ = {
+		9E9AD7F07D724776C11A06405A622C32 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B43CDEEED13FBBF0DB60934B989F2E72 /* MOInbox.storyboard */,
+				195FB5176D18FCFA9C84F4D751C61306 /* MOInbox.storyboard */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		BBAE89E97E435E212FF5BDA3F7A19148 /* Pods-MoEReactNativeExample-tvOS */ = {
+		9F0238DB3381E3A9F6BCABBB9DAF3F15 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				552C1D243CB4E5DA41C6C605ED2D5116 /* Pods-MoEReactNativeExample-tvOS-acknowledgements.markdown */,
-				2EBA3A028BF008877785DCA0CE221A56 /* Pods-MoEReactNativeExample-tvOS-acknowledgements.plist */,
-				4788254C760CA7B923B132CAB137F079 /* Pods-MoEReactNativeExample-tvOS-dummy.m */,
-				53D772B3E204BEE5B442156C48F5C406 /* Pods-MoEReactNativeExample-tvOS-frameworks.sh */,
-				928F79142E322C4E972EEEC41411CAC9 /* Pods-MoEReactNativeExample-tvOS-resources.sh */,
-				B6B95BE058B24813658939DAD383DC9F /* Pods-MoEReactNativeExample-tvOS.debug.xcconfig */,
-				063D881C9E071DF707EFE2C84A6A3942 /* Pods-MoEReactNativeExample-tvOS.release.xcconfig */,
+				366B35023A439CDA127AA1CA3E35C6CA /* MoEngage-iOS-SDK */,
+				32B7CD64E7ED2D845ACAA1A918CA01FE /* MORichNotification */,
 			);
-			name = "Pods-MoEReactNativeExample-tvOS";
-			path = "Target Support Files/Pods-MoEReactNativeExample-tvOS";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		BDF19A6783E226EDD1DBD6CAADC09526 /* Pods-MoEReactNativeExampleTests */ = {
+		D24148A04FE45CD4CCC1934E57CC46CA /* Pods-NotificationService */ = {
 			isa = PBXGroup;
 			children = (
-				CD384E8D4C4B36E497A270AFE266E37B /* Pods-MoEReactNativeExampleTests-acknowledgements.markdown */,
-				C286D46D2E3C3D443F4A3C3935077E8D /* Pods-MoEReactNativeExampleTests-acknowledgements.plist */,
-				BE271D7AC9F182ED0E0020BDE0A1A1A4 /* Pods-MoEReactNativeExampleTests-dummy.m */,
-				35ADFEF5D65CD6EFF2D2045DC411B1F7 /* Pods-MoEReactNativeExampleTests-frameworks.sh */,
-				6FB27FFC37D20A636C3631F78E095B01 /* Pods-MoEReactNativeExampleTests-resources.sh */,
-				B2B4EEB56044B375979997281908F802 /* Pods-MoEReactNativeExampleTests.debug.xcconfig */,
-				6771BEC7A22738FAA0FBF50C7F9C066D /* Pods-MoEReactNativeExampleTests.release.xcconfig */,
+				58CFC59CDA4047B1E58FB26A0F6B4C89 /* Pods-NotificationService-acknowledgements.markdown */,
+				7E03501AC0D57469DCE33C96F6CEE6FB /* Pods-NotificationService-acknowledgements.plist */,
+				4D4CD63B8FC36DB1C99A867350E8A53D /* Pods-NotificationService-dummy.m */,
+				9CD8040946DEED8596FA94E9D78E4236 /* Pods-NotificationService-resources.sh */,
+				1ED985EE3951212CC07C91574C15B73E /* Pods-NotificationService.debug.xcconfig */,
+				D16261913447BDFFA71F63B7D66A29FD /* Pods-NotificationService.release.xcconfig */,
+			);
+			name = "Pods-NotificationService";
+			path = "Target Support Files/Pods-NotificationService";
+			sourceTree = "<group>";
+		};
+		F9312DF862DF2DF8285087BFCB553344 /* Pods-MoEReactNativeExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				121AE3AF5FCEB5E2302510C4C662D1F9 /* Pods-MoEReactNativeExampleTests-acknowledgements.markdown */,
+				E7AFB6A871D9FAA8E35C344A2DB5347F /* Pods-MoEReactNativeExampleTests-acknowledgements.plist */,
+				1B450BC60D03CBD9DE4A6430D5758565 /* Pods-MoEReactNativeExampleTests-dummy.m */,
+				AAB31EB661BBA50B98D27C1227CC049E /* Pods-MoEReactNativeExampleTests-frameworks.sh */,
+				662ADBED051149D314DC77F11746AB32 /* Pods-MoEReactNativeExampleTests-resources.sh */,
+				CA8990F2558FF2D1F0DE1BD1548941E8 /* Pods-MoEReactNativeExampleTests.debug.xcconfig */,
+				DF91F5B44A7B4C0E29D4526DC0B77FF6 /* Pods-MoEReactNativeExampleTests.release.xcconfig */,
 			);
 			name = "Pods-MoEReactNativeExampleTests";
 			path = "Target Support Files/Pods-MoEReactNativeExampleTests";
-			sourceTree = "<group>";
-		};
-		D50C344C420D48919432E515D75FD0D7 /* Pods-MoEReactNativeExample-tvOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				2D21D8AE35F7F2B04B780ED8887E04EE /* Pods-MoEReactNativeExample-tvOSTests-acknowledgements.markdown */,
-				9CB589BD70247635D1721ADEA6E8EF3C /* Pods-MoEReactNativeExample-tvOSTests-acknowledgements.plist */,
-				BDED65109B86A88DF7BBBA7C890961DD /* Pods-MoEReactNativeExample-tvOSTests-dummy.m */,
-				51BBA4267F4A5E3777F5D402F46C41CC /* Pods-MoEReactNativeExample-tvOSTests-frameworks.sh */,
-				CC2253ABDE1614F824B32BF017C41093 /* Pods-MoEReactNativeExample-tvOSTests-resources.sh */,
-				520DEFD3070279194AA6852E7CBA5199 /* Pods-MoEReactNativeExample-tvOSTests.debug.xcconfig */,
-				60DFDE1F479262720C99AE0A5F4299B0 /* Pods-MoEReactNativeExample-tvOSTests.release.xcconfig */,
-			);
-			name = "Pods-MoEReactNativeExample-tvOSTests";
-			path = "Target Support Files/Pods-MoEReactNativeExample-tvOSTests";
-			sourceTree = "<group>";
-		};
-		DF8AACE351C4D79599D8FBACC88730D4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E9AFB66AA14EB6D15D5FEE077AE9AEE4 /* libMoEngageSDK.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E713CD7B8B9FFCE910E7D1E8D7CD6AF0 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				66895582A77DD771DD5D9DD830D34C3B /* Pods-MoEReactNativeExample */,
-				BBAE89E97E435E212FF5BDA3F7A19148 /* Pods-MoEReactNativeExample-tvOS */,
-				D50C344C420D48919432E515D75FD0D7 /* Pods-MoEReactNativeExample-tvOSTests */,
-				BDF19A6783E226EDD1DBD6CAADC09526 /* Pods-MoEReactNativeExampleTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		EF636C0762ED74975039768C51B65A1A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				0B84131E4DA8867CA9A6AF7D2CD8DE7D /* CoreLocation.framework */,
-				D2AB6822C046A189EA4532FDA3A00E1D /* Foundation.framework */,
-				0FF1F039E2A294E9FEAEAAACA2BEDA51 /* Security.framework */,
-				D6D4E05E15CDF732D8227F7CE4E7D14B /* SystemConfiguration.framework */,
-				2847B940B7E888238243AC0406ABDAB0 /* UserNotifications.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -373,23 +347,23 @@
 			);
 			name = "Pods-MoEReactNativeExampleTests";
 			productName = "Pods-MoEReactNativeExampleTests";
-			productReference = 8C7CA57877C765EF28701AFF869722A8 /* libPods-MoEReactNativeExampleTests.a */;
+			productReference = 32DA4DA62CD628AE88EE2E8B23092607 /* libPods-MoEReactNativeExampleTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		8CE93AFF31F360927C2D4D196F916DAC /* Pods-MoEReactNativeExample-tvOS */ = {
+		3B187687A9539FD86B06A3D7B7AE0BB3 /* Pods-NotificationService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D772C4057406E5B4FADC81155066990 /* Build configuration list for PBXNativeTarget "Pods-MoEReactNativeExample-tvOS" */;
+			buildConfigurationList = BB1AECDE52BE43B501F9EDC5A9F30A5B /* Build configuration list for PBXNativeTarget "Pods-NotificationService" */;
 			buildPhases = (
-				B2F7D3DEA30C6697222083A9A3075834 /* Sources */,
-				EFD3997B1455F7ED311F8F0E55E14CEB /* Frameworks */,
+				C4AC6550B16C8F6A3B9E9ACE1E3CA94B /* Sources */,
+				29923527D46ACF1270A5A80226205FC7 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-MoEReactNativeExample-tvOS";
-			productName = "Pods-MoEReactNativeExample-tvOS";
-			productReference = CF03FA400935E324BFEF5D8EE3629BF9 /* libPods-MoEReactNativeExample-tvOS.a */;
+			name = "Pods-NotificationService";
+			productName = "Pods-NotificationService";
+			productReference = 2A553027852B4CD33E73BEE85A577103 /* libPods-NotificationService.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		AD13CD0BC24045D8B8C0DCA83EDC973E /* MoEngage-iOS-SDK */ = {
@@ -406,23 +380,7 @@
 			);
 			name = "MoEngage-iOS-SDK";
 			productName = "MoEngage-iOS-SDK";
-			productReference = AB60E0B3E24533B64A67745AC8047EEF /* libMoEngage-iOS-SDK.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		B3C0653F3BE419E7B09A29859BCA471B /* Pods-MoEReactNativeExample-tvOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46C920FE50E56865D0DDF8C9890F0CE3 /* Build configuration list for PBXNativeTarget "Pods-MoEReactNativeExample-tvOSTests" */;
-			buildPhases = (
-				AA790155F397AA20D541664967F61F23 /* Sources */,
-				620C925B7CEEEBDED1F8C5A3A149EDA7 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-MoEReactNativeExample-tvOSTests";
-			productName = "Pods-MoEReactNativeExample-tvOSTests";
-			productReference = FAF21D69C7E6AE8636BC5780C63B64AF /* libPods-MoEReactNativeExample-tvOSTests.a */;
+			productReference = D730736831DF14A4339F5E6A2B17A77E /* libMoEngage-iOS-SDK.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		C960966A7B3B38BE6137EC42945F23BB /* Pods-MoEReactNativeExample */ = {
@@ -439,7 +397,7 @@
 			);
 			name = "Pods-MoEReactNativeExample";
 			productName = "Pods-MoEReactNativeExample";
-			productReference = 7D0F322BBA1EE3F7FD080FBF3A95FE53 /* libPods-MoEReactNativeExample.a */;
+			productReference = 734669B3CA42C357016324073FBFDB2C /* libPods-MoEReactNativeExample.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -459,15 +417,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1C589A21536F7D4E1A3B6ACD4E94D042 /* Products */;
+			productRefGroup = 1188A39D4FE226593D4494FE7EB20B2F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				AD13CD0BC24045D8B8C0DCA83EDC973E /* MoEngage-iOS-SDK */,
 				C960966A7B3B38BE6137EC42945F23BB /* Pods-MoEReactNativeExample */,
-				8CE93AFF31F360927C2D4D196F916DAC /* Pods-MoEReactNativeExample-tvOS */,
-				B3C0653F3BE419E7B09A29859BCA471B /* Pods-MoEReactNativeExample-tvOSTests */,
 				229C339A1029EB490D81E3B46B955CD0 /* Pods-MoEReactNativeExampleTests */,
+				3B187687A9539FD86B06A3D7B7AE0BB3 /* Pods-NotificationService */,
 			);
 		};
 /* End PBXProject section */
@@ -484,19 +441,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA790155F397AA20D541664967F61F23 /* Sources */ = {
+		C4AC6550B16C8F6A3B9E9ACE1E3CA94B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47B3D8F9A8A05E6FABA1B5E350999DC0 /* Pods-MoEReactNativeExample-tvOSTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B2F7D3DEA30C6697222083A9A3075834 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CDD8869110FDF1DB1F8B6F1BE36D848B /* Pods-MoEReactNativeExample-tvOS-dummy.m in Sources */,
+				6178C4436D86BB8A12322FE2F56B6DC9 /* Pods-NotificationService-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,28 +477,31 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10D04B0FBD61F0D87E03717C7F625987 /* Debug */ = {
+		0DB11008AF110A507B01F9A0CF3AB90D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6B95BE058B24813658939DAD383DC9F /* Pods-MoEReactNativeExample-tvOS.debug.xcconfig */;
+			baseConfigurationReference = D16261913447BDFFA71F63B7D66A29FD /* Pods-NotificationService.release.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = appletvos;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		12FC860CDE8738175C8793B19C2CB464 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 006EE56315510F1D987B4D0CCE513EEC /* MoEngage-iOS-SDK.xcconfig */;
+			baseConfigurationReference = 4D32DE58CD1AC0954A68502DE6947230 /* MoEngage-iOS-SDK.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -568,7 +520,111 @@
 			};
 			name = Debug;
 		};
-		282A9A5183558DD660B7C173E1AD44B6 /* Release */ = {
+		4C97631559617ED648B75DF99D61DB72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA8990F2558FF2D1F0DE1BD1548941E8 /* Pods-MoEReactNativeExampleTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5208C9F09FF6541208F2004EF005191E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC98559F259FDA13DABC9541F223F77E /* Pods-MoEReactNativeExample.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76FA3FBC78698B0F0E7CEDE0EDA5529F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF91F5B44A7B4C0E29D4526DC0B77FF6 /* Pods-MoEReactNativeExampleTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80C0B5027C4B888E6709E64F0A222B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ED985EE3951212CC07C91574C15B73E /* Pods-NotificationService.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84953A45EC4F2071AA51A0F8004BE106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D32DE58CD1AC0954A68502DE6947230 /* MoEngage-iOS-SDK.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MoEngage-iOS-SDK/MoEngage-iOS-SDK-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -620,114 +676,10 @@
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
-				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
 			name = Release;
 		};
-		4C97631559617ED648B75DF99D61DB72 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2B4EEB56044B375979997281908F802 /* Pods-MoEReactNativeExampleTests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		5208C9F09FF6541208F2004EF005191E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 429427E944A9079EB50B2F5BD16C6461 /* Pods-MoEReactNativeExample.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		5512B51CEA84A1D9D27EA0EEC1DF91D0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 60DFDE1F479262720C99AE0A5F4299B0 /* Pods-MoEReactNativeExample-tvOSTests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		76FA3FBC78698B0F0E7CEDE0EDA5529F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6771BEC7A22738FAA0FBF50C7F9C066D /* Pods-MoEReactNativeExampleTests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		84953A45EC4F2071AA51A0F8004BE106 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 006EE56315510F1D987B4D0CCE513EEC /* MoEngage-iOS-SDK.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/MoEngage-iOS-SDK/MoEngage-iOS-SDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		9D625C3752B9B2C9659751DEA05FE98B /* Debug */ = {
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -784,32 +736,12 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-			};
-			name = Debug;
-		};
-		CF9F5CBE3A6981860C5AD5C3DFF31B1D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 520DEFD3070279194AA6852E7CBA5199 /* Pods-MoEReactNativeExample-tvOSTests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
 			name = Debug;
 		};
 		E8E313FACEDEFD23E98E535A45777564 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F748F734AEA3D839FD95C20F7A9BBE11 /* Pods-MoEReactNativeExample.release.xcconfig */;
+			baseConfigurationReference = B97AF277B2D638E88766E23FAEC7463E /* Pods-MoEReactNativeExample.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -828,52 +760,14 @@
 			};
 			name = Release;
 		};
-		ED06525B149BABBA55153CF36CCE7360 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 063D881C9E071DF707EFE2C84A6A3942 /* Pods-MoEReactNativeExample-tvOS.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.2;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D772C4057406E5B4FADC81155066990 /* Build configuration list for PBXNativeTarget "Pods-MoEReactNativeExample-tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				10D04B0FBD61F0D87E03717C7F625987 /* Debug */,
-				ED06525B149BABBA55153CF36CCE7360 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D625C3752B9B2C9659751DEA05FE98B /* Debug */,
-				282A9A5183558DD660B7C173E1AD44B6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		46C920FE50E56865D0DDF8C9890F0CE3 /* Build configuration list for PBXNativeTarget "Pods-MoEReactNativeExample-tvOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CF9F5CBE3A6981860C5AD5C3DFF31B1D /* Debug */,
-				5512B51CEA84A1D9D27EA0EEC1DF91D0 /* Release */,
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -883,6 +777,15 @@
 			buildConfigurations = (
 				12FC860CDE8738175C8793B19C2CB464 /* Debug */,
 				84953A45EC4F2071AA51A0F8004BE106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1AECDE52BE43B501F9EDC5A9F30A5B /* Build configuration list for PBXNativeTarget "Pods-NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80C0B5027C4B888E6709E64F0A222B19 /* Debug */,
+				0DB11008AF110A507B01F9A0CF3AB90D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
