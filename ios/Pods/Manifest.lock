@@ -1,5 +1,5 @@
 PODS:
-  - MoEngage-iOS-SDK (3.9.0)
+  - MoEngage-iOS-SDK (3.9.1)
   - MORichNotification (1.3.0)
 
 DEPENDENCIES:
@@ -7,7 +7,7 @@ DEPENDENCIES:
   - MORichNotification
 
 SPEC CHECKSUMS:
-  MoEngage-iOS-SDK: 5771276fed969880c398e67700cdce44c3d2e74e
+  MoEngage-iOS-SDK: ae8b4671ab9ca0d42080a7f04fb579db506eeddd
   MORichNotification: 92c01121abdbb8e6673ece45fd48aee874a7ae81
 
 PODFILE CHECKSUM: bda3be50e546095c6bb24f1b3805379c563e65c2

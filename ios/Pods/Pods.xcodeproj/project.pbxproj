@@ -477,28 +477,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0DB11008AF110A507B01F9A0CF3AB90D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D16261913447BDFFA71F63B7D66A29FD /* Pods-NotificationService.release.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		12FC860CDE8738175C8793B19C2CB464 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4D32DE58CD1AC0954A68502DE6947230 /* MoEngage-iOS-SDK.xcconfig */;
@@ -519,6 +497,28 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		32BB4C7CCA1E0CEC0AC7F657C3DA83C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D16261913447BDFFA71F63B7D66A29FD /* Pods-NotificationService.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		4C97631559617ED648B75DF99D61DB72 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -580,27 +580,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		80C0B5027C4B888E6709E64F0A222B19 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1ED985EE3951212CC07C91574C15B73E /* Pods-NotificationService.debug.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		84953A45EC4F2071AA51A0F8004BE106 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -760,6 +739,27 @@
 			};
 			name = Release;
 		};
+		FF15C129DA49D59A6DC4DFFD7196CC65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ED985EE3951212CC07C91574C15B73E /* Pods-NotificationService.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -784,8 +784,8 @@
 		BB1AECDE52BE43B501F9EDC5A9F30A5B /* Build configuration list for PBXNativeTarget "Pods-NotificationService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				80C0B5027C4B888E6709E64F0A222B19 /* Debug */,
-				0DB11008AF110A507B01F9A0CF3AB90D /* Release */,
+				FF15C129DA49D59A6DC4DFFD7196CC65 /* Debug */,
+				32BB4C7CCA1E0CEC0AC7F657C3DA83C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
