@@ -10,7 +10,7 @@
 #import "AppDelegate.h"
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
-#import "MOEHelperConstants.h"
+#import <MoEngage/MoEngage.h>
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -63,5 +63,4 @@
 -(void)applicationDidFailToRegisterForRemoteNotification:(NSNotification *)notification{
   NSLog(@"settings info :  %@",notification);
 }
-
 @end

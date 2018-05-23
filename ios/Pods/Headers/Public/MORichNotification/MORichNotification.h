@@ -1,1 +1,0 @@
-../../../MORichNotification/MORichNotification/MORichNotification.h
